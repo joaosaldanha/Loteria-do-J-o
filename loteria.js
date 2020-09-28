@@ -75,6 +75,7 @@ function printNumSort()
     {
         let li = document.createElement("li")
         li.append(numSort[i])
+        li.classList.add("result");
         document.getElementById('numSort').append(li)
     }
 }
